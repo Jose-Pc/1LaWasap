@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0.95"
-        app:srcCompat="@android:drawable/alert_dark_frame" />
+        android:src="@android:drawable/alert_dark_frame" />
 
     <EditText
         android:id="@+id/editText"
