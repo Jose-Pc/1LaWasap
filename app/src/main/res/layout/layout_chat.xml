@@ -2,11 +2,13 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutPrincipal"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
 
     <LinearLayout
+        android:id="@+id/layoutUser"
         android:layout_width="match_parent"
         android:layout_height="64dp"
         android:layout_marginBottom="10dp"
@@ -14,50 +16,35 @@
         android:orientation="horizontal">
 
         <ImageView
-            android:id="@+id/imageView2"
+            android:id="@+id/img_fotoUser"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:src="@mipmap/ic_launcher_round" />
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/str_nomUser"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="2"
             android:gravity="center"
-            android:text="TextView"
+            android:text="NickName"
             tools:text="NICKNAME" />
 
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/layoutConversaciones"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:orientation="vertical"
         android:weightSum="20">
 
-        <TextView
-            android:id="@+id/textView8"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="15dp"
-            android:layout_marginTop="15dp"
-            android:layout_weight="1"
-            android:gravity="left"
-            android:text="TextView" />
-
-        <TextView
-            android:id="@+id/textView5"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="right"
-            android:text="TextView" />
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/layoutIntroduceText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
@@ -66,7 +53,7 @@
         android:orientation="horizontal">
 
         <EditText
-            android:id="@+id/editText3"
+            android:id="@+id/str_introTexto"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="3"
@@ -76,7 +63,7 @@
             android:text="Introduce texto" />
 
         <ImageButton
-            android:id="@+id/imageButton3"
+            android:id="@+id/btn_enviarChat"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"

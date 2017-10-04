@@ -8,6 +8,6 @@ public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.layout_configuracion);
+        setContentView(R.layout.layout_contactos);
     }
 }
