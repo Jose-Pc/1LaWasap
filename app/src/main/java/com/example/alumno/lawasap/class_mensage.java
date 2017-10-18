@@ -26,7 +26,7 @@ public class class_mensage {
     }
 
     public Date getFecha() {
-       // fecha = fecha.
+        //fecha = fecha.g
         return fecha;
     }
 
