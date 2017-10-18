@@ -37,7 +37,7 @@ public class chatActivity extends Activity {
             tv.setPadding(5,5,5,5);
             tv.setBackgroundColor(Color.rgb(218, 215, 215));
             ly_conv.addView(tv);
-            ///aaaa
+           //aaaa
         }
     }
 
