@@ -29,15 +29,31 @@ public class chatActivity extends Activity {
     }
     public void mostrarMensajes(int pos_mensaje){
         LinearLayout ly_conv =(LinearLayout) findViewById(R.id.layoutConversaciones);
+        LinearLayout ly_fecha=(LinearLayout) findViewById(R.id.layoutConversaciones);
+        ly_conv.addView(ly_fecha);
+
 
         for(int i=pos_mensaje; i < Arr_mensaje.size(); i++){
+            TextView tv_fecha = new TextView(this);
+            tv_fecha.setText((CharSequence) Arr_mensaje.get(i).getFecha());
+            tv_fecha.setGravity(Gravity.CENTER);
+            tv_fecha.setPadding(5,5,5,5);
+            tv_fecha.setBackgroundColor(Color.rgb(218, 215, 215));
+            ly_fecha.addView(tv_fecha);
+
+
+
+
+
+
+
             TextView tv = new TextView(this);
             tv.setText(Arr_mensaje.get(i).getRemintente() + "\n" + Arr_mensaje.get(i).getContenido() +"\n"+ Arr_mensaje.get(i).getFecha() );
             tv.setGravity(Gravity.RIGHT);
             tv.setPadding(5,5,5,5);
             tv.setBackgroundColor(Color.rgb(218, 215, 215));
             ly_conv.addView(tv);
-           //aaaa
+
         }
     }
 
