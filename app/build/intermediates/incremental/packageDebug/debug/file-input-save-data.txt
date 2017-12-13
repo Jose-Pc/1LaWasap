@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Mon Dec 11 09:38:12 CET 2017
+0.baseType=DIRECTORY
+0.base=/home/alumno/AndroidStudioProjects/1LaWasap/app/build/intermediates/transforms/dexMerger/debug/0
+0.path=classes.dex
+0.set=DEX
+count=1

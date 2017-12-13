@@ -9,12 +9,14 @@ import java.util.Date;
 public class class_mensage {
     protected String contenido=null;
     protected Date fecha;
-    protected String remintente;
+    protected String telefono;
+
+    public class_mensage(String string, String cString, int anInt){};
 
     public class_mensage(String contenido, Date fecha, String remintente) {
         this.contenido = contenido;
         this.fecha = fecha;
-        this.remintente = remintente;
+        this.telefono = remintente;
     }
 
     public String getContenido() {
@@ -35,10 +37,10 @@ public class class_mensage {
     }
 
     public String getRemintente() {
-        return remintente;
+        return telefono;
     }
 
     public void setRemintente(String remintente) {
-        this.remintente = remintente;
+        this.telefono = telefono;
     }
 }

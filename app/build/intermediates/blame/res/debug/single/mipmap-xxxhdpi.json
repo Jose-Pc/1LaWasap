@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/home/jose/AndroidStudioProjects/1LaWasap/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher_round.png",
+        "source": "/home/jose/AndroidStudioProjects/1LaWasap/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/alumno/AndroidStudioProjects/1LaWasap/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher_round.png",
+        "source": "/home/alumno/AndroidStudioProjects/1LaWasap/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/alumno/AndroidStudioProjects/LaWasap/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher_round.png",
+        "source": "/home/alumno/AndroidStudioProjects/LaWasap/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/alumno/AndroidStudioProjects/LaWasap/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
+        "source": "/home/alumno/AndroidStudioProjects/LaWasap/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/jose/AndroidStudioProjects/LaWasap/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher_round.png",
+        "source": "/home/jose/AndroidStudioProjects/LaWasap/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/alumno/AndroidStudioProjects/1LaWasap/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
+        "source": "/home/alumno/AndroidStudioProjects/1LaWasap/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/jose/AndroidStudioProjects/LaWasap/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
+        "source": "/home/jose/AndroidStudioProjects/LaWasap/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/jose/AndroidStudioProjects/1LaWasap/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
+        "source": "/home/jose/AndroidStudioProjects/1LaWasap/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    }
+]
